@@ -6,17 +6,24 @@
   <title>Turan AI</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark">
+
   <header>
-    <img src="assets/logo.png" alt="Turan AI Logo" class="logo">
+    <img id="logo" src="assets/Turanb.png" alt="Turan AI Logo">
     <h1>Turan AI</h1>
+    <div id="theme-switcher">
+      <button id="light-btn">☀️</button>
+      <button id="dark-btn">🌙</button>
+    </div>
   </header>
 
   <main>
     <div id="chat-container">
       <div id="chat-box"></div>
-      <input type="text" id="user-input" placeholder="Sorunuzu yazın...">
-      <button id="send-btn">Gönder</button>
+      <div id="input-container">
+        <input type="text" id="user-input" placeholder="Sorunuzu yazın...">
+        <button id="send-btn">Gönder</button>
+      </div>
     </div>
   </main>
 
